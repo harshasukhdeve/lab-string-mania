@@ -29,7 +29,7 @@ public class TestStringMethod {
 		try {
 			sm.lower("");
 		} catch (IllegalArgumentException e) {
-			// System.out.println("No input is given");
+			 System.out.println("No input is given");
 			e.printStackTrace();
 		}
 	}
@@ -43,7 +43,7 @@ public class TestStringMethod {
 		try {
 			sm.upper("");
 		} catch (IllegalArgumentException e) {
-			// System.out.println("No input is given");
+			 System.out.println("No input is given");
 			e.printStackTrace();
 		}
 	}
@@ -57,7 +57,7 @@ public class TestStringMethod {
 		try {
 			sm.firstCharacter(" ");
 		} catch (IllegalArgumentException e) {
-			// System.out.println("No input is given");
+			 System.out.println("No input is given");
 			e.printStackTrace();
 		}
 	}
@@ -71,7 +71,7 @@ public class TestStringMethod {
 		try {
 			sm.length("");
 		} catch (IllegalArgumentException e) {
-			// System.out.println("No input is given");
+			System.out.println("No input is given");
 			e.printStackTrace();
 		}
 	}
@@ -84,7 +84,7 @@ public class TestStringMethod {
 		try {
 			sm.trim("");
 		} catch (IllegalArgumentException e) {
-			// System.out.println("No input is given");
+			System.out.println("No input is given");
 			e.printStackTrace();
 		}
 	}
